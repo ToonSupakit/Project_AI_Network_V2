@@ -61,6 +61,7 @@ network-ai-v2/
 ---
 
 ## 🌐 Network Topology
+<img width="1397" height="542" alt="image" src="https://github.com/user-attachments/assets/016d0f81-4e64-424b-ba1a-6ff163886cee" />
 
 Mid-scale enterprise network with **4 Cisco Routers**, **2 Switches**, **6 PCs**, full-mesh OSPF routing, DHCP, and NAT.
 
