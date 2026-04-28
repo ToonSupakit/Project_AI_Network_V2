@@ -268,6 +268,8 @@ R1(config-if)#no shutdown
 ---
 
 ### 📊 Check Status
+<img width="764" height="808" alt="image" src="https://github.com/user-attachments/assets/6cc68b13-e360-4c5b-bc80-bfbf39f12477" />
+
 **Use case:** Want to see the live interface state without fixing anything
 
 **What it does:**
@@ -278,6 +280,8 @@ R1(config-if)#no shutdown
 ---
 
 ### 🚦 Rate Limit
+<img width="842" height="513" alt="image" src="https://github.com/user-attachments/assets/18075341-de2a-47a6-a920-b99b81d16bb7" />
+
 **Use case:** Interface has abnormally high TX/RX traffic (possible flood or DDoS)
 
 **What it does:**
