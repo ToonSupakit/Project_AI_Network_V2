@@ -218,6 +218,7 @@ This starts **everything at once**:
 ---
 
 ## 🚨 Anomaly Alert — What It Looks Like
+<img width="596" height="452" alt="image" src="https://github.com/user-attachments/assets/28e9d572-df7f-4169-9521-bca93353eaaa" />
 
 When the AI detects an anomaly, Discord sends an alert embed with:
 
