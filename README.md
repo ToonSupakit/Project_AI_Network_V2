@@ -2,7 +2,7 @@
 
 A real-time network anomaly detection and **auto-remediation** system using Machine Learning + Discord ChatOps Bot, connected to Cisco Routers via GNS3.
 
-> Built as a final year project — exploring how AI and Network Automation can work together to detect and fix network issues automatically, without human intervention.
+> Built  — exploring how AI and Network Automation can work together to detect and fix network issues automatically, without human intervention.
 
 ---
 
@@ -453,12 +453,9 @@ collector:
 
 ## 👨‍💻 About
 
-Built as a final year project exploring how **AI and Network Automation** can work together. Instead of waiting for users to report problems, this system detects anomalies proactively and fixes them automatically through Discord.
+Built exploring how **AI and Network Automation** can work together. Instead of waiting for users to report problems, this system detects anomalies proactively and fixes them automatically through Discord.
 
 The architecture is designed to scale — adding new routers requires no code changes, just a single entry in `devices.yaml`.
 
 ---
 
-## 📄 License
-
-MIT License
