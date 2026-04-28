@@ -1,5 +1,5 @@
 config.yaml
+*.pkl
 devices.yaml
 __pycache__/
-*.pkl
-.env
+*.pyc
