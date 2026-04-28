@@ -218,7 +218,8 @@ This starts **everything at once**:
 ---
 
 ## 🚨 Anomaly Alert — What It Looks Like
-<img width="596" height="452" alt="image" src="https://github.com/user-attachments/assets/28e9d572-df7f-4169-9521-bca93353eaaa" />
+<img width="850" height="485" alt="image" src="https://github.com/user-attachments/assets/0faa062d-0018-40e2-9b35-f1283b47a897" />
+
 
 When the AI detects an anomaly, Discord sends an alert embed with:
 
@@ -261,6 +262,8 @@ R1(config-if)#no shutdown
 ```
 
 > After clicking, the button turns grey and shows "✅ Fix สำเร็จ!" with the result
+<img width="780" height="524" alt="image" src="https://github.com/user-attachments/assets/d34d1d3d-7b1d-4a2f-9bb7-959a5ff44573" />
+
 
 ---
 
@@ -319,6 +322,9 @@ no rate-limit output 50000000 ...
 ## 📊 !analytics — Network Dashboard
 
 The `!analytics` command sends **5 embed panels** to Discord:
+<img width="841" height="629" alt="image" src="https://github.com/user-attachments/assets/b8469cd4-0c75-4ca9-a0e8-5100f4cc14ee" />
+<img width="767" height="609" alt="image" src="https://github.com/user-attachments/assets/b62aa594-df7c-40b3-a2b3-551b320673ef" />
+
 
 ### Panel 1 — Overview
 | Field | Description |
