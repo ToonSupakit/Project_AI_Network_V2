@@ -218,7 +218,7 @@ This starts **everything at once**:
 ---
 
 ## 🚨 Anomaly Alert — What It Looks Like
-<img width="850" height="485" alt="image" src="https://github.com/user-attachments/assets/0faa062d-0018-40e2-9b35-f1283b47a897" />
+
 
 
 When the AI detects an anomaly, Discord sends an alert embed with:
@@ -280,7 +280,7 @@ R1(config-if)#no shutdown
 ---
 
 ### 🚦 Rate Limit
-<img width="842" height="513" alt="image" src="https://github.com/user-attachments/assets/18075341-de2a-47a6-a920-b99b81d16bb7" />
+
 
 **Use case:** Interface has abnormally high TX/RX traffic (possible flood or DDoS)
 
@@ -371,6 +371,7 @@ Breakdown of what caused anomalies:
 R1(config-if)# shutdown
 → FastEthernet0/1 goes admin_down
 → Protocol also goes down
+
 ```
 
 **What the system does:**
@@ -382,6 +383,7 @@ R1(config-if)# shutdown
 6. Interface comes back up within seconds
 7. Next collection cycle confirms recovery → `!status` shows ✅
 
+<img width="850" height="485" alt="image" src="https://github.com/user-attachments/assets/0faa062d-0018-40e2-9b35-f1283b47a897" />
 ---
 
 ### Scenario 2 — High Traffic (Flood / DDoS)
@@ -398,7 +400,7 @@ R1# ping 192.168.2.1 repeat 9999999 size 1500
 3. Discord sends alert with cause: "Traffic ขาออก/ขาเข้าสูงผิดปกติ (XX%)"
 4. Admin clicks **🚦 Rate Limit** to cap bandwidth at 50Mbps
 5. After traffic normalizes, admin clicks **🔓 Remove Limit**
-
+<img width="842" height="513" alt="image" src="https://github.com/user-attachments/assets/18075341-de2a-47a6-a920-b99b81d16bb7" />
 ---
 
 ### Scenario 3 — Device Timeout (Router unreachable)
@@ -413,6 +415,8 @@ R1# ping 192.168.2.1 repeat 9999999 size 1500
    - Zone information
    - Error message
 3. Admin knows to check the router manually
+<img width="644" height="483" alt="image" src="https://github.com/user-attachments/assets/72b5e862-bfc2-4fa7-8bd4-94d9cc758f2f" />
+
 
 ---
 
