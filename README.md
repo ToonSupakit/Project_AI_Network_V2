@@ -1,4 +1,4 @@
-# 🤖 Network AI Monitor v2
+# 🤖 Intelligent Network Threat Detection
 
 A real-time network anomaly detection and **auto-remediation** system using Machine Learning + Discord ChatOps Bot, connected to Cisco Routers via GNS3.
 
